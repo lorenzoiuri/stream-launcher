@@ -13,17 +13,7 @@
     <item>
         <name>2bfm</name>
         <id>2b</id>
-        <url>http://streaming.radionomy.com/2bfm</url>
-    </item>
-    <item>
-        <name>2bfm Classix</name>
-        <id>2bc</id>
-        <url>http://streaming.radionomy.com/2bfm-Classix</url>
-    </item>
-    <item>
-        <name>2bfm Top 40</name>
-        <id>2b40</id>
-        <url>http://streaming.radionomy.com/2bfm-40</url>
+        <url>http://streamingV2.shoutcast.com/2bfm</url>
     </item>
     <item>
         <name>Nightwave Plaza</name>

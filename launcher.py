@@ -6,21 +6,21 @@ def printUsage():
     usageStr = "usage: "
     usageStr += str(sys.argv[0])
     usageStr += " id"
-    print usageStr
+    print(usageStr)
     
 def printLibrary(root):
     initialMessage = "";
     initialMessage += "Found "
     initialMessage += str(len(root)) 
     initialMessage += " elements in library"
-    print initialMessage
+    print(initialMessage)
     for i in range(0,len(root)):
         msg = " | "
         msg += root[i][0].text
         msg += " (id = "
         msg += root[i][1].text
         msg += ")"
-        print msg
+        print(msg)
 
 tree = ET.parse('library.xml')
 root = tree.getroot()
